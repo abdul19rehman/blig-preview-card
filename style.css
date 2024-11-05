@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 522px;
+    width: 384px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+}
+.img{
+    height:200px;
+    width: 336px;
+    background-image: url(/assets/images/illustration-article.svg);
+    background-size: cover;
+    margin: 24px;
+    border-radius: 16px;
+}
+
+.box1{
+        width: 336px;
+        height: 194px;
+        margin-left: 24px;
+    }
+
+.Learning{
+    width: 82px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}   
+.Published{
+    width: 170px;
+    height:21px ;
+    margin-top: 8px;
+    line-height: 21px;
+} 
+.div3{
+    width: 336px;
+    height: 36px;
+    margin-top: 10px;
+}
+.description{
+    color: #7F7F7F;
+    line-height: 24px;
+    width: 336px;
+    height: 72px;
+}
+
+.box2{
+    margin-top: 12px;
+    margin-top: 12px;
+    width: 150px;
+    height: 32px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/images/image-avatar.webp);
+    background-size: cover;
+    margin-right: 12px;
+}
+
+.div3:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
